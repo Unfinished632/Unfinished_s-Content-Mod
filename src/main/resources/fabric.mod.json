@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "unfinisheds_content_mod",
+	"version": "${version}",
+	"name": "Unfinished_'s Content Mod",
+	"description": "Adds content and changes progression significantly!",
+	"authors": [
+		"Unfinished_"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/unfinisheds_content_mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"unfinished.unfinisheds_content_mod.Unfinished_sContentMod"
+		],
+		"client": [
+			"unfinished.unfinisheds_content_mod.Unfinished_sContentModClient"
+		],
+		"fabric-datagen": [
+			"unfinished.unfinisheds_content_mod.Unfinished_sContentModDataGenerator"
+		]
+	},
+	"mixins": [
+		"unfinisheds_content_mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
