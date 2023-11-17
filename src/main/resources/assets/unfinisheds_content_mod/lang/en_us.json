@@ -1,3 +1,5 @@
 {
-  "item.unfinisheds_content_mod.lil_bro": "Lil Bro"
+  "item.unfinisheds_content_mod.lil_bro": "Lil Bro",
+  "itemgroup.unfinished_s_content_mod": "Unfinished_'s Content Mod",
+  "block.unfinisheds_content_mod.lil_bro_block": "Lil Bro Block"
 }

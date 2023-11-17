@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures":
+  {
+    "all": "unfinisheds_content_mod:block/lil_bro_block"
+  }
+}

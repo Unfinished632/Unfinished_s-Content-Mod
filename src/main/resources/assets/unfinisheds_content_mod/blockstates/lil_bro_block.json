@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "":
+    {
+      "model": "unfinisheds_content_mod:block/lil_bro_block"
+    }
+  }
+}
