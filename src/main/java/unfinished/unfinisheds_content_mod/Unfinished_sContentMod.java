@@ -8,8 +8,6 @@ import unfinished.unfinisheds_content_mod.block.ModBlocks;
 import unfinished.unfinisheds_content_mod.item.ModItemGroups;
 import unfinished.unfinisheds_content_mod.item.ModItems;
 
-import java.util.Locale;
-
 public class Unfinished_sContentMod implements ModInitializer
 {
 	public static final String MOD_ID = "unfinisheds_content_mod";
@@ -19,6 +17,7 @@ public class Unfinished_sContentMod implements ModInitializer
 	public void onInitialize()
 	{
 		LOGGER.info("Fuck Mojang!");
+
 
 		ModItemGroups.RegisterItemGroups();
 		ModItems.RegisterModItems();
