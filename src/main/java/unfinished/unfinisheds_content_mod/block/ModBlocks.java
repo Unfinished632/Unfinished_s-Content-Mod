@@ -16,7 +16,7 @@ public class ModBlocks
 {
     public static final Block LIL_BRO_BLOCK = RegisterBlock
             ("lil_bro_block",
-             new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).mapColor(MapColor.WHITE).strength(2.0f, 1200.0f))
+             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).mapColor(MapColor.WHITE))
             );
 
     private static Block RegisterBlock(String name, Block block)

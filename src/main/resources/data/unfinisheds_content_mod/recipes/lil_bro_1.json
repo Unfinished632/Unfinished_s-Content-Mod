@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients":
+    [
+      {
+        "item": "unfinisheds_content_mod:lil_bro_block"
+      }
+    ],
+  "result":
+  {
+    "item": "unfinisheds_content_mod:lil_bro",
+    "count": 9
+  }
+}

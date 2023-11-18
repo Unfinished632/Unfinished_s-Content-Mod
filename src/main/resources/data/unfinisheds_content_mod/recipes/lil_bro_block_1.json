@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":
+    [
+      "LLL",
+      "LLL",
+      "LLL"
+    ],
+  "key":
+  {
+    "L":
+    {
+      "item": "unfinisheds_content_mod:lil_bro"
+    }
+  },
+  "result":
+  {
+    "item": "unfinisheds_content_mod:lil_bro_block"
+  }
+}
